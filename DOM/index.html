@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="./52) async vs defer.js" defer></script> -->
+    <!-- <script src="./53)DOM.js" defer></script> -->
+    <!-- <script src="./54)getElementById & querySelector.js" defer></script> -->
+    <!-- <script src="./55)textContent & innerText.js" defer></script> -->
+    <!-- <script src="./56) change the styles of elements.js" defer></script> -->
+    <!-- <script src="./57) get & set attributes.js" defer></script> -->
+    <!-- <script src="./58)querySelectorAll & getElementbyClassName.js" defer></script> -->
+    <!-- <script src="./59) iterateElements.js" defer></script> -->
+    <!-- <script src="./60) innerHTML.js" defer></script> -->
+    <!-- <script src="./62) classlist, add & remove, toggle classes.js" defer></script> -->
+    <!-- <script src="./63) Add HTML element using javascript.js" defer></script> -->
+    <!-- <script src="./64) createElement, append, prepend, remove, before, after.js" defer></script> -->
+    <!-- <script src="./65) insert adjacent HTML.js" defer></script> -->
+    <!-- <script src="./66) clone nodes.js" defer></script> -->
+    <!-- <script src="./67) appendChild, insertBefore, replaceChild, removeChild.js" defer></script> -->
+    <!-- <script src="./68) static list vs live list.js" defer></script> -->
+    <!-- <script src="./69) Dimensions of an element.js" defer></script> -->
+    <!-- <script src="./70) intro to events.js" defer></script> -->
+    <!-- <script src="./71) this keyword inside eventListener callback.js" defer></script> -->
+    <!-- <script src="./72) click event on multiple buttons.js" defer></script> -->
+    <!-- <script src="./73) event object.js" defer></script> -->
+    <!-- <script src="./74) events behind the scenes.js" defer></script> -->
+    <!-- <script src="./77) keypress & mouseover event.js" defer></script> -->
+    <script src="./79) project using event delegation.js" defer></script>
+    <title>My Website</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="container nav">
+        <h1 class="logo">Website</h1>
+        <ul class="nav-items">
+          <li class="nav-item"><a href="#home">Home</a></li>
+          <li class="nav-item"><a href="">Todo</a></li>
+          <li class="nav-item"><a href="">Sign Up</a></li>
+        </ul>
+      </nav>
+      <div class="headline">
+        <h2 id="main-heading">Manage Your Tasks <span style="display: none;">Hello</span></h2>
+        <!-- <button class="btn btn-headline" onclick="console.log('u clicked me')">Learn More</button> refer to 70) event of js -->
+        <button class="btn btn-headline" >Learn More</button>
+      </div>
+    </header>
+    <secton class="section-todo container">
+      <h2>Your Plan for today</h2>
+      <form class="form-todo">
+        <input type="text" name="" id="" placeholder="Add Todo" />
+        <input type="submit" value="Add Todo" class="btn" />
+      </form>
+      <ul class="todo-list">
+        <li>
+          <span class="text">Do this do that</span>
+          <div class="todo-buttons">
+            <button class="todo-btn done">Done</button>
+            <button class="todo-btn remove">Remove</button>
+          </div>
+        </li>
+        <!-- <li>todo 1</li> -->
+        <!-- command used : li{item $}*5 -->
+        <!-- <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li> -->
+      </ul>
+    </secton>
+    <section class="section-signup container">
+      <h2>Sign Up</h2>
+      <form class="signup-form">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" />
+        </div>
+        <div class="form-group">
+          <label for="passworn">Password</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div class="form-group">
+          <label for="confirmPassword">Confirm Password</label>
+          <input type="password" name="confirmPassword" id="confirmPassword" />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="text" name="phone" id="phone" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="form-group">
+          <label for="username">About Yourself</label>
+          <textarea name="about" id="about" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit" class="btn signup-btn">submit</button>
+      </form>
+    </section>
+  </body>
+</html>
